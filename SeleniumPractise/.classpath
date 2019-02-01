@@ -35,41 +35,5 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
-	<classpathentry kind="lib" path="C:/Users/hiteshg/.m2/repository/org/apache/poi/poi-ooxml/3.9/poi-ooxml-3.9.jar" sourcepath="C:/Users/hiteshg/.m2/repository/org/apache/poi/poi-ooxml/3.9/poi-ooxml-3.9-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="org.apache.poi"/>
-			<attribute name="maven.artifactId" value="poi-ooxml"/>
-			<attribute name="maven.version" value="3.9"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/hiteshg/.m2/repository/com/google/guava/guava/22.0/guava-22.0.jar" sourcepath="C:/Users/hiteshg/.m2/repository/com/google/guava/guava/22.0/guava-22.0-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="com.google.guava"/>
-			<attribute name="maven.artifactId" value="guava"/>
-			<attribute name="maven.version" value="22.0"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/hiteshg/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar" sourcepath="C:/Users/hiteshg/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="com.google.guava"/>
-			<attribute name="maven.artifactId" value="guava"/>
-			<attribute name="maven.version" value="25.0-jre"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/hiteshg/.m2/repository/org/apache/poi/poi/3.12/poi-3.12.jar" sourcepath="C:/Users/hiteshg/.m2/repository/org/apache/poi/poi/3.12/poi-3.12-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="org.apache.poi"/>
-			<attribute name="maven.artifactId" value="poi"/>
-			<attribute name="maven.version" value="3.12"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

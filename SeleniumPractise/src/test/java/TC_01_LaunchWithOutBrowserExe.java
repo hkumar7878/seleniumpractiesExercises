@@ -17,9 +17,9 @@ public class TC_01_LaunchWithOutBrowserExe {
 	{
 		//WebDriverManager.chromedriver().setup();
 		WebDriverManager.operadriver().setup();
-		//driver= new ChromeDriver();
+		driver= new ChromeDriver();
 		//driver=new FirefoxDriver();
-		driver= new OperaDriver();
+		//driver= new OperaDriver();
 		// To use specific browser (chrome) version
 		
 		//WebDriverManager.chromedriver().version("2.44").setup();
