@@ -4,7 +4,7 @@ import java.util.Set;
 public class TC_13_DuplicateCharactersInString {
 
 	public static void main(String[] args) {
-		String duplicate="JavaJ2EE";
+		String duplicate="JavaJAEE";
 		duplicate(duplicate);
 
 	}
@@ -28,7 +28,7 @@ public class TC_13_DuplicateCharactersInString {
 			else
 				map.put(c, 1);
 		}
-		
+		System.out.println("Values in map are " + map);
 		//Getting a Set containing all keys of charCountMap
 		
 		Set<Character> charInString= map.keySet();
