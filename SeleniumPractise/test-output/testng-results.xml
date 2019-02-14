@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6947" started-at="2019-01-30T11:44:29Z" finished-at="2019-01-30T11:44:36Z">
+  <suite name="Default suite" duration-ms="30" started-at="2019-02-14T14:13:10Z" finished-at="2019-02-14T14:13:10Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6947" started-at="2019-01-30T11:44:29Z" finished-at="2019-01-30T11:44:36Z">
-      <class name="TC_08_Test_Authentication_Window">
-        <test-method status="PASS" signature="testAuthentication()[pri:0, instance:TC_08_Test_Authentication_Window@3bfdc050]" name="testAuthentication" duration-ms="6927" started-at="2019-01-30T11:44:29Z" finished-at="2019-01-30T11:44:36Z">
+    <test name="Default test" duration-ms="30" started-at="2019-02-14T14:13:10Z" finished-at="2019-02-14T14:13:10Z">
+      <class name="NewPackage.TC_002_CommonElementsBetweenArrays">
+        <test-method status="PASS" signature="findCommonElements()[pri:0, instance:NewPackage.TC_002_CommonElementsBetweenArrays@42d80b78]" name="findCommonElements" duration-ms="9" started-at="2019-02-14T14:13:10Z" finished-at="2019-02-14T14:13:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAuthentication -->
-      </class> <!-- TC_08_Test_Authentication_Window -->
+        </test-method> <!-- findCommonElements -->
+      </class> <!-- NewPackage.TC_002_CommonElementsBetweenArrays -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

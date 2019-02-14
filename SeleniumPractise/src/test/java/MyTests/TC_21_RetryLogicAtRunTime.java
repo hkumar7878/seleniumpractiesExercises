@@ -1,49 +1,46 @@
+package MyTests;
+
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-
-@Listeners(CustomerListeners.class)
-public class TC_07_ScreenShotCapture_FailedTest extends Base{
+public class TC_21_RetryLogicAtRunTime {
 	
+
+	WebDriver driver;
+	//WebDriver driver1;
 	
 	@BeforeMethod
 	public void setUp()
 	{
-		
-		
 		WebDriverManager.chromedriver().setup();
 		driver= new ChromeDriver();
-		driver.get("http://www.google.com");
-	}
+	}	
 	
-	@Test
-	public void screenShotonFailure1()
+	@Test(priority=1)
+	public void test1()
 	{
+		
+		
+		
 		Assert.assertEquals(false, true);
+		//driver.findElement(by)
 	}
 	
-	@Test
-	public void screenShotonFailure2()
+	@Test(priority=2)
+	public void test2()
 	{
-		Assert.assertEquals(false, true);
+		
+		Assert.assertEquals(true, false);
 	}
-	
-	
-	@Test
-	public void screenShotonFailure3()
-	{
-		Assert.assertEquals(false, true);
-	}
-	
 	
 	@AfterMethod
-	public void tearDown()
+	public void quit()
 	{
 		driver.quit();
 	}

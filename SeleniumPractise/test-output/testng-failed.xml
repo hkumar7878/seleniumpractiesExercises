@@ -3,15 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TC_07_ScreenShotCapture_FailedTest">
+      <class name="TC_21_Reading_Particular_Table_Col_Data">
         <methods>
-          <include name="screenShotonFailure3"/>
-          <include name="screenShotonFailure1"/>
-          <include name="setUp"/>
-          <include name="screenShotonFailure2"/>
-          <include name="tearDown"/>
+          <include name="readColData"/>
+          <include name="quit"/>
         </methods>
-      </class> <!-- TC_07_ScreenShotCapture_FailedTest -->
+      </class> <!-- TC_21_Reading_Particular_Table_Col_Data -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
